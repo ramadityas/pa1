@@ -13,4 +13,5 @@
   <plugin name="cordova-plugin-whitelist" source="npm" spec="~1.2.1"/>
   <plugin name="cordova-plugin-network-information" source="npm" spec="~1.3.0"/>
   <plugin name="cordova-plugin-splashscreen" source="npm" spec="~4.0.0"/>
+  <splash src="load.jpg" />
 </widget>
