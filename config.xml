@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+    <widget xmlns   = "http://www.w3.org/ns/widgets"
+        xmlns:gap   = "http://phonegap.com/ns/1.0"
+        id          = "com.phonegap.example"
+        versionCode = "1" 
+        version     = "1.0.0" >
+  <name>Tokoh Teladan</name>
+  <description>Aplikasi Android Cerita Tokoh Teladan Alkitab</description>
+  <author href="http://ramaditya.pe.hu" email="ramaditya.id@gmail.com">Ramaditya Satria</author>
+  <content src="index.html"/>
+  <icon src="icon.png" />
+  <preference name="orientation" value="portrait" />
+  <plugin name="cordova-plugin-whitelist" source="npm" spec="~1.2.1"/>
+  <plugin name="cordova-plugin-network-information" source="npm" spec="~1.3.0"/>
+  <plugin name="cordova-plugin-splashscreen" source="npm" spec="~4.0.0"/>
+</widget>
